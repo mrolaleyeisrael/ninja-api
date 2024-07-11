@@ -12,3 +12,5 @@ import { NinjasService } from './ninjas/ninjas.service';
   providers: [AppService, NinjasService],
 })
 export class AppModule {}
+
+// We will import the NinjasModule into the AppModule.
